@@ -1,18 +1,5 @@
 defmodule Dial do
-  @moduledoc """
-  Documentation for Dial.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Dial.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def run() do
+    Dial.Impl.main(2)
   end
 end
